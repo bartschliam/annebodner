@@ -2,6 +2,8 @@ from flask import Flask, redirect
 import os
 
 app = Flask(__name__)
+application = app
+
 
 @app.route('/')
 def home():
